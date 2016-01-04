@@ -1,8 +1,8 @@
 
 module.exports = {
-  host     : 'localhost',
+  host     : 'mysql',
   user     : 'root',
   password : 'root',
   database : 'twitter-machine-learning',
-  port : 8889
+  port : 3306
 };

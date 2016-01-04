@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost:8889
--- Généré le :  Lun 04 Janvier 2016 à 22:31
+-- Généré le :  Lun 04 Janvier 2016 à 22:58
 -- Version du serveur :  5.5.38
 -- Version de PHP :  5.5.17
 
@@ -36,7 +36,7 @@ CREATE TABLE `hashtag` (
 
 CREATE TABLE `tweet` (
 `id` int(11) NOT NULL,
-  `twitter_id` int(11) NOT NULL,
+  `twitter_id` varchar(300) NOT NULL,
   `text` varchar(140) NOT NULL,
   `user` varchar(20) NOT NULL,
   `created_at` datetime NOT NULL

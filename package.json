@@ -1,0 +1,17 @@
+{
+  "name": "twitter-machine-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.10.0",
+    "squel": "^4.2.2",
+    "twit": "^2.1.1",
+    "twitter": "^1.2.5"
+  }
+}
